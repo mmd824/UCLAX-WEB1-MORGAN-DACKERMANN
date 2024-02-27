@@ -17,7 +17,7 @@ const Essays = () => {
                 <ul>
                     <li>
                         Hypertext means text that is organized in a way that
-                        connects it to related items.{" "}
+                        connects it to related items.
                     </li>
                     <li>
                         Markup is a typesetting style guide for a hardcopy and
@@ -25,7 +25,7 @@ const Essays = () => {
                     </li>
                     <li>
                         Language is language that computers understand and use
-                        to interpret commands.{" "}
+                        to interpret commands.
                     </li>
                 </ul>
                 <p>
@@ -98,8 +98,41 @@ const Essays = () => {
                     other libraries.
                 </p>
             </SingleEssay>
-            <SingleEssay question={`Q4: Sample question...`}>
-                Answer 4 goes here.
+            <SingleEssay
+                question={`Q4: What is the difference between a Front-End and a Back-End Developer?`}
+            >
+                <p>
+                    <b>Front-End Developer:</b> a Front-End developer deals with
+                    all of the elements of a website or application that a user
+                    can see. Front-end developers work under two categories: UI
+                    and UX. They work either with design teams or individually
+                    (depending on the size of the project) to create the user
+                    interface (UI) or graphical user interface (GUI). Their goal
+                    is to provide an easy-to-navigate and aesthetically pleasing
+                    design. The goal is an excellent user experience (UX).
+                </p>
+                <p>
+                    They work with clients and product managers to create a
+                    website that the client wants. They are also responsible for
+                    testing the website and troubleshooting problems.
+                </p>
+                <p>
+                    <b>Back-End Developer:</b> a Back-End developer works on the
+                    parts of a website or application that are not visible to
+                    the user. Because the back-end contains coding that makes
+                    the website function through developed algorithms and logic,
+                    back-end developers work behind the scenes to make sure
+                    things run smoothly. They are responsible for
+                    everything-including databases, API, and core application
+                    logic - operating as it should.
+                </p>
+                <p>
+                    Back-end developers are also responsible for making the
+                    sites run efficiently through streamlined processes.
+                </p>
+            </SingleEssay>
+            <SingleEssay question={`Q5: Sample question...`}>
+                Answer 5 goes here.
             </SingleEssay>
         </EssaysStyled>
     );
