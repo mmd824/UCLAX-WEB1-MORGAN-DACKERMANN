@@ -131,8 +131,26 @@ const Essays = () => {
                     sites run efficiently through streamlined processes.
                 </p>
             </SingleEssay>
-            <SingleEssay question={`Q5: Sample question...`}>
-                Answer 5 goes here.
+            <SingleEssay
+                question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                <p>
+                    <b>Root Relative:</b> root relative paths come from the
+                    site. An @ symbol indicates a root relative path. Root
+                    relative paths are universal resources that can be in any
+                    combination of subfolders.
+                </p>
+                <p>
+                    <b>Document Relative:</b> document relative paths have
+                    `./`or `../` in front of them depending on how far up or
+                    down they are. Whole folders can be moved up or down without
+                    changing the relationships, but if files are moved around
+                    then the dependencies can be broken and will have to be
+                    fixed.
+                </p>
+            </SingleEssay>
+            <SingleEssay question={`Q6: Sample question...`}>
+                Answer 6 goes here.
             </SingleEssay>
         </EssaysStyled>
     );
