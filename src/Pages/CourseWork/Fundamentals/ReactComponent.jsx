@@ -5,9 +5,9 @@ const ReactComponent = ({ title, showDisc = false }) => {
         <ReactComponentStyled>
             <h3> {title}</h3>
             {showDisc && (
-                <div>
+                <DisclaimerStyled>
                     Disclaimer: This film is intended for mature audiences.
-                </div>
+                </DisclaimerStyled>
             )}
         </ReactComponentStyled>
     );
