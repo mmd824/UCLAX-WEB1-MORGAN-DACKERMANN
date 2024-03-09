@@ -23,7 +23,7 @@ TabItem.propTypes = {
 };
 
 const TabItemStyled = styled.div`
-    background-color: teal;
+    background-color: #014444;
     color: #17b1b1;
     text-align: center;
     cursor: pointer;

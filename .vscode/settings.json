@@ -30,7 +30,7 @@
     "typescript.suggest.autoImports": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
-    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.enabled": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
@@ -74,7 +74,7 @@
     "jest.autoRun": {
         "watch": false
     },
-    "window.commandCenter": false,
+    "window.commandCenter": true,
     "window.zoomLevel": 1,
     "workbench.editor.empty.hint": "hidden"
 }
