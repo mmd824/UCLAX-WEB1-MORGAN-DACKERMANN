@@ -149,8 +149,139 @@ const Essays = () => {
                     fixed.
                 </p>
             </SingleEssay>
-            <SingleEssay question={`Q6: Sample question...`}>
-                Answer 6 goes here.
+            <SingleEssay
+                question={`Q7: What is the difference between jpg, gif, png and svg images?`}
+            >
+                <p>
+                    <b>JPG or JPEG: Joint Photographic Experts Group</b> JPGs
+                    are great for photographs because they can support millions
+                    of colors, so they are ideal for real-life images. They take
+                    up little storage space, so they upload and download
+                    quickly. But JPGs have a couple of problems. First, they are
+                    “lossy” raster files, which means when data is compressed,
+                    unnecessary information is deleted from the file
+                    permanently. So, every time the JPG is saved, a small amount
+                    of information is lost. Second, JPGs do not support a
+                    transparent background. If JPGs are made without a
+                    background, it will automatically put in a white background.
+                </p>
+                <p>
+                    JPEGs are the default file format for uploading pictures to
+                    the web, unless they need transparency, have text in them,
+                    are animated, or would benefit from color changes, like
+                    logos or icons.
+                </p>
+                <p>
+                    <b>GIF: Graphics Interchange Format</b> GIFs came on the
+                    scene in 1987 to ease the pain out of sending images to or
+                    from slow connections, or low bandwidth. GIFs are
+                    “lossless,” which means they retain all the data contained
+                    in the file. They only accommodate up to 256 indexed colors,
+                    making them smaller than JPGs. GIFs were designed for small,
+                    simple graphic icons, but they can be animated! Although
+                    GIFs do not have audio, theyre still a powerful and fun way
+                    to bring motion to online channels.
+                </p>
+                <p>
+                    <b>PNG: Portable Network Graphic</b> JPNGs were invented in
+                    1995 as an improvement to the GIF. If the file size is not
+                    an issue, for complex images, PNGs are probably the best
+                    choice.
+                </p>
+                <p>
+                    PNGs come in two types PNG-8 and PNG-24. PNG-8 means that
+                    the file has only 8 bits per pixel and the PNG-24 has 24
+                    bits per pixel. PNG-8s, like GIFs, support 256 indexed
+                    colors, as well as transparency. PNG-24s, like JPGs, can
+                    support up to 16 million colors. PNGs are most often used
+                    for static images, like JPGs, but they can also support
+                    animation. PNGs also offer alpha transparency which is nice
+                    because each individual pixel has its own level of opacity.
+                    Like GIFs, PNGs are lossless, so they do not lose data
+                    during compression, and they are ideal for detailed
+                    graphics, or when you are working with files that are still
+                    being edited.
+                </p>
+                <p>
+                    <b>SVG: Scalable Vector Graphic</b> The latest of all the
+                    file types, SVGs are a vector image file format released in
+                    2001. Unlike raster formats seen in JPG, GIF, and PNG, an
+                    SVG image remains crisp and clear at any resolution or size,
+                    making them more powerful than other file formats suitable
+                    for the web.
+                </p>
+                <p>
+                    SVGs are drawn from mathematically declared shapes and
+                    curves, not pixels, so SVGs can be animated, support
+                    transparency, and any combinations of colors or gradients.
+                    Vector graphics are great for logos and line art because
+                    they can be infinitely resized without losing quality or
+                    increasing in size. They are great for creating icons and
+                    line art for high-resolution displays. .
+                </p>
+                <p>
+                    Like GIFs and PNGs, SVGs are a lossless file format, and
+                    they tend to be fairly large files when compared with other
+                    formats for the web.
+                </p>
+            </SingleEssay>
+            <SingleEssay
+                question={`Q6: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps`}
+            >
+                <p>
+                    <b>Product Manager</b> Product managers are responsible for
+                    the overall strategy and vision for a product.
+                </p>
+                <p>
+                    <b>Product Owner</b> Product owners are responsible for
+                    defining and prioritizing the features and requirements for
+                    a product.
+                </p>
+                <p>
+                    <b>Business Analyst</b> Business analysts are responsible
+                    for analyzing the business needs of an organization and
+                    identifying solutions to business problems.
+                </p>
+                <p>
+                    <b>Scrum Master</b> BScrum Masters facilitate the Scrum
+                    process (a project management framework that helps teams
+                    structure and manage their work) within an Agile development
+                    team. They are responsible for organizing and facilitating
+                    various Scrum events, such as Sprint Planning, Daily Scrum,
+                    Sprint Review, and Sprint Retrospective.
+                </p>
+                <p>
+                    <b>UX Designer </b> UX (User Experience) focus on creating
+                    digital products that are easy and satisfying for users to
+                    interact with. They work to understand user needs and
+                    behaviors and use that information to create intuitive,
+                    user-friendly interfaces and experiences.
+                </p>
+                <p>
+                    <b>Developer/Engineer </b> A software developer in Agile
+                    software development writes quality code that meets the
+                    functional and non-functional requirements of the user
+                    stories. They use tools and techniques such as code reviews,
+                    refactoring, debugging, and static analysis to ensure that
+                    your code is free of errors, bugs, and vulnerabilities.
+                </p>
+                <p>
+                    <b>QA/SDET </b> Quality assurance engineers, also known as
+                    QA engineers or software testers, identify and report
+                    defects, bugs, and issues within the software during
+                    development and before its release to the public. They
+                    create and execute test plans and test cases to verify that
+                    the software meets functional and non-functional
+                    requirements, such as performance, usability, and security.
+                </p>
+                <p>
+                    <b>DevOps </b> DevOps engineers are responsible for building
+                    and maintaining the infrastructure that supports software
+                    applications, including servers, databases, and networking
+                    systems. This also includes working to monitor and analyze
+                    application performance, identify bottlenecks, and optimize
+                    resource utilization.
+                </p>
             </SingleEssay>
         </EssaysStyled>
     );
