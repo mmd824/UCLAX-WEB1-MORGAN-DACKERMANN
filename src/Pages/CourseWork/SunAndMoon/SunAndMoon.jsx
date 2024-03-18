@@ -6,7 +6,7 @@ import moonImg from "./images/moon.png";
 
 const SunAndMoon = () => {
     // JS Layer
-    const [imgSrc, imgSrcUpdate] = useState(moonImg);
+    const [imgSrc, imgSrcUpdate] = useState(sunImg);
 
     const changeToSun = () => {
         imgSrcUpdate(sunImg);
@@ -21,8 +21,8 @@ const SunAndMoon = () => {
             <h2>Sun And Moon</h2>
             <img
                 src={imgSrc}
-                onMouseEnter={changeToSun}
-                onMouseLeave={changeToMoon}
+                onMouseEnter={changeToMoon}
+                onMouseLeave={changeToSun}
             />
         </SunAndMoonStyled>
     );
@@ -36,14 +36,14 @@ const SunAndMoonStyled = styled.div`
 
     h2 {
         font-size: 30px;
-        color: teal;
+        color: #6e7070;
     }
 
     img {
         display: block;
         margin: 30px auto;
         padding: 20px;
-        border: solid 20px teal;
-        background-color: #025f5f;
+        border: solid 20px #f0dec0;
+        background-color: #cd9498;
     }
 `;

@@ -82,6 +82,7 @@ const FormStyled = styled.form`
 
     label {
         font-weight: bold;
+        color: #70877a;
         display: block;
         margin-bottom: 5px;
     }
@@ -92,7 +93,7 @@ const FormStyled = styled.form`
         padding: 10px;
         width: 100%;
         background-color: #eee;
-        border: solid 1px #999;
+        border: solid 1.5px #718776;
 
         &:focus {
             background-color: #fff;
@@ -100,9 +101,9 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #70877a;
         padding: 10px 5px;
-        color: #fff;
+        color: #f2e3c9;
         width: 150px;
         border: none;
         outline: none;
@@ -111,10 +112,10 @@ const FormStyled = styled.form`
 
         &:hover,
         &.focus {
-            background-color: #015353;
+            background-color: #6e7070;
         }
         &.active {
-            background-color: #002020;
+            background-color: #393b3b;
         }
     }
 `;

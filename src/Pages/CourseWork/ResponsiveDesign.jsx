@@ -6,7 +6,7 @@ const ResponsiveDesign = () => {
     const { isMediumAndUp } = useMediaQuery();
     return (
         <ResponsiveDesignStyled>
-            <h2>ResponsiveDesign</h2>
+            <h2>Responsive Design</h2>
 
             <div className="boxes">
                 {isMediumAndUp && <div className="box box1">1</div>}
@@ -35,7 +35,7 @@ const ResponsiveDesignStyled = styled.div`
         font-size: 50px;
         text-align: center;
         color: white;
-        background-color: teal;
+        background-color: #f0dec0;
         margin: 10px;
     }
     .box2 {
@@ -47,12 +47,12 @@ const ResponsiveDesignStyled = styled.div`
 
     @media ${breakpoints.isMediumAndUp} {
         .box {
-            background-color: indigo;
+            background-color: #d6adad;
         }
     }
     @media ${breakpoints.isLargeAndUp} {
         .box {
-            background-color: green;
+            background-color: #879a8b;
         }
     }
 `;

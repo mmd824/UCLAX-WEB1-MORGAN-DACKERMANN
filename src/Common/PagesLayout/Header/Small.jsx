@@ -52,21 +52,21 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #70877a;
 
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: solid 1px #999999;
+            border-bottom: solid 1px #c3d6cb;
 
-            color: white;
+            color: #f0dec0;
             text-decoration: none;
 
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #6e7070;
             }
         }
     }

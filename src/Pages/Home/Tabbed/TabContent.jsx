@@ -28,7 +28,7 @@ TabContent.propTypes = {
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #c4d5c6;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;
@@ -44,12 +44,12 @@ const TabContentStyled = styled.div`
 
     h3 {
         font-size: 30px;
-        color: white;
+        color: #6e7070;
     }
 
     p {
         font-size: 18px;
-        color: #8cc6c6;
+        color: #70877a;
         margin-bottom: 20px;
         line-height: 150%;
     }

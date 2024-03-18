@@ -13,7 +13,7 @@ const StaffMember = ({ member }) => {
 
             <div className="bottom">
                 <p>
-                    <b>Year Started:</b> {yearStarted}
+                    <b>Price:</b> {yearStarted}
                 </p>
 
                 <Accolades accolades={accolades} />
@@ -42,9 +42,13 @@ const StaffMemberStyled = styled.div`
     }
 
     h3 {
-        color: white;
-        background-color: #014444;
+        color: #f2e3c9;
+        background-color: #70877a;
         padding: 5px 10px;
         margin: 0px;
+    }
+
+    p {
+        color: #5a6e62;
     }
 `;
