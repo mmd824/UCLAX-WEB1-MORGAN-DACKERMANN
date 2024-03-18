@@ -2,7 +2,7 @@ import slide1 from "./img/Wild-floral-arrangement.jpg";
 import slide2 from "./img/Florist-completed-bouquet.jpg";
 import slide3 from "./img/Pink-rose.jpg";
 import slide4 from "./img/Florist-male.jpg";
-import slide5 from "./img/Lavender-and-cream-roses.jpg";
+import slide5 from "./img/Inside-the-flower-shop.jpg";
 import slide6 from "./img/Florist-female.jpg";
 import slide7 from "./img/Yellow-and-pink-rose.jpg";
 
@@ -15,7 +15,7 @@ export const slidesData = [
     {
         id: 2,
         image: slide2,
-        title: "Florist Completing Bouquetn",
+        title: "Florist Finishing a Bouquet",
     },
     {
         id: 3,
@@ -25,12 +25,12 @@ export const slidesData = [
     {
         id: 4,
         image: slide4,
-        title: "Florest Arranging Flowers",
+        title: "Florist Arranging Flowers",
     },
     {
         id: 5,
         image: slide5,
-        title: "Lavender and Cream Roses",
+        title: "Inside the Flower Shop",
     },
     {
         id: 6,

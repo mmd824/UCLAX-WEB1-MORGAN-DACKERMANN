@@ -10,12 +10,9 @@ const StaffMember = ({ member }) => {
 
     return (
         <StaffMemberStyled>
-            <img src={image} />
-            <largeimg src={image} />
+            <ModalImage small={image} large={image} alt={name} />
 
-            <ModalImage small={img} large={largeimg} alt={name} />
-
-            <h3>{name}</h3>
+            <h4>{name}</h4>
 
             <div className="bottom">
                 <p>
@@ -38,16 +35,11 @@ StaffMember.propTypes = {
 const StaffMemberStyled = styled.div`
     background-color: #eeeeee;
 
-    img {
-        width: 100%;
-        display: block;
-    }
-
     .bottom {
         padding: 20px;
     }
 
-    h3 {
+    h4 {
         color: #f2e3c9;
         background-color: #70877a;
         padding: 5px 10px;

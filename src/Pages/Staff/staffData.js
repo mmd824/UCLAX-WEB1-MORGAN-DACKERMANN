@@ -152,16 +152,16 @@ export const staffData = [
         id: 16,
         image: image16,
         name: "Summer Picnic",
-        yearStarted: "$125.00",
+        yearStarted: "$165.00",
         accolades: [
-            "Yellow, orange, pink, red, and lavender blooms evoke memories of days in the summer sun, sipping lemonade",
+            "Yellow, orange, pink, and red blooms evoke memories of days in the summer sun, sipping lemonade",
         ],
     },
     {
         id: 17,
         image: image17,
         name: "Sweet Romeo",
-        yearStarted: "$125.00",
+        yearStarted: "$175.00",
         accolades: [
             "Yellow, orange, pink, red, and hints of blue blooms are timeless",
         ],
@@ -172,7 +172,7 @@ export const staffData = [
         name: "Sugar Cookie",
         yearStarted: "$125.00",
         accolades: [
-            "Cream, pale pink, and lavender blooms are sure to bring a smile",
+            "Cream, pale pink, yellow, lavender, and blue blooms are sure to bring a smile",
         ],
     },
     {
@@ -180,6 +180,6 @@ export const staffData = [
         image: image19,
         name: "Bejeweled",
         yearStarted: "$125.00",
-        accolades: ["Orange, red, and pink blooms are sweet gems"],
+        accolades: ["Pink, orange, and blue blooms are sweet gems"],
     },
 ];
