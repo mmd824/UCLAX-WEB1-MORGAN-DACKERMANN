@@ -3,12 +3,17 @@ import PropTypes from "prop-types";
 
 import Accolades from "./Accolades/Accolades";
 
+import ModalImage from "react-modal-image";
+
 const StaffMember = ({ member }) => {
     const { name, image, yearStarted, accolades } = member;
 
     return (
         <StaffMemberStyled>
-            <img src={image} alt={name} />
+            <img src={image} />
+            <largeimg src={image} />
+
+            <ModalImage small={img} large={largeimg} alt={name} />
 
             <h3>{name}</h3>
 
