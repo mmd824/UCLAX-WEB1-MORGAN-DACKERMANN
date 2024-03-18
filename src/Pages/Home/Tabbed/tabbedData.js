@@ -7,7 +7,7 @@ export const tabbedData = [
         id: 1,
         image: image1,
         title: "About Us",
-        text: "<p><b>Blossom & Bloom </b>is a floral design company specializing in wild floral arrangements reminiscent of still-life paintings.</p>",
+        text: "<p>At <b>Blossom & Bloom,</b> we immerse ourselves in the enchanting world of floral design, crafting wild arrangements that evoke the timeless beauty of still-life paintings. From intimate gatherings to grand celebrations, we infuse every occasion with the whimsical charm of our wild floral arrangements, bringing dreams to life one bloom at a time.</p>",
     },
     {
         id: 2,
