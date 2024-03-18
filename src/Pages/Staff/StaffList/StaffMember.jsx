@@ -9,6 +9,7 @@ const StaffMember = ({ member }) => {
     return (
         <StaffMemberStyled>
             <img src={image} alt={name} />
+
             <h3>{name}</h3>
 
             <div className="bottom">

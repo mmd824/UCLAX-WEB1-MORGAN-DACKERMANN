@@ -116,6 +116,7 @@ const FormStyled = styled.form`
         }
         &.active {
             background-color: #393b3b;
+            border: solid 1.5px #718776;
         }
     }
 `;

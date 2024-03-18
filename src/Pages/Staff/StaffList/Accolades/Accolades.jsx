@@ -21,6 +21,7 @@ Accolades.propTypes = {
 };
 
 const AccoladesStyled = styled.ul`
-    padding-left: 20px;
+    padding-left: 10px;
     list-style-type: disc;
+    color: #70877a;
 `;

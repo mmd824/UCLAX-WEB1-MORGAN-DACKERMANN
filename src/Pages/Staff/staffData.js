@@ -10,6 +10,13 @@ import image9 from "./img/Wild-9.jpg";
 import image10 from "./img/Wild-10.jpg";
 import image11 from "./img/Wild-11.jpg";
 import image12 from "./img/Wild-12.jpg";
+import image13 from "./img/Wild-13.jpg";
+import image14 from "./img/Wild-14.jpg";
+import image15 from "./img/Wild-15.jpg";
+import image16 from "./img/Wild-16.jpg";
+import image17 from "./img/Wild-17.jpg";
+import image18 from "./img/Wild-18.jpg";
+import image19 from "./img/Wild-19.jpg";
 
 export const staffData = [
     {
@@ -115,5 +122,64 @@ export const staffData = [
         name: "Smiling Wild Child",
         yearStarted: "$180.00",
         accolades: ["Orange, red, and pink blooms are sure to bring a smile"],
+    },
+    {
+        id: 13,
+        image: image13,
+        name: "Serenity",
+        yearStarted: "$150.00",
+        accolades: [
+            "Cream, orange, and green blooms evoke a sense of serennity",
+        ],
+    },
+    {
+        id: 14,
+        image: image14,
+        name: "Razzle Dazzle",
+        yearStarted: "$150.00",
+        accolades: [
+            "Orange, red, and pink blooms are sure to dazzle and delight",
+        ],
+    },
+    {
+        id: 15,
+        image: image15,
+        name: "So Elegant",
+        yearStarted: "$150.00",
+        accolades: ["Cream, pink, and lavendar blooms are charmingly elegant"],
+    },
+    {
+        id: 16,
+        image: image16,
+        name: "Summer Picnic",
+        yearStarted: "$125.00",
+        accolades: [
+            "Yellow, orange, pink, red, and lavender blooms evoke memories of days in the summer sun, sipping lemonade",
+        ],
+    },
+    {
+        id: 17,
+        image: image17,
+        name: "Sweet Romeo",
+        yearStarted: "$125.00",
+        accolades: [
+            "Yellow, orange, pink, red, and hints of blue blooms are timeless",
+        ],
+    },
+    {
+        id: 18,
+        image: image18,
+        name: "Sugar Cookie",
+        yearStarted: "$125.00",
+        accolades: [
+            "Cream, pale pink, and lavender blooms are sure to bring a smile",
+        ],
+    },
+    {
+        id: 19,
+        image: image19,
+        name: "Bejeweled",
+        yearStarted: "$125.00",
+        accolades: ["Orange, red, and pink blooms are sweet gems"],
     },
 ];
