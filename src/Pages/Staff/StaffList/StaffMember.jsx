@@ -10,10 +10,7 @@ const StaffMember = ({ member }) => {
 
     return (
         <StaffMemberStyled>
-            <img src={image} />
-            <largeimg src={image} />
-
-            <ModalImage small={img} large={largeimg} alt={name} />
+            <ModalImage small={image} large={image} alt={name} />
 
             <h3>{name}</h3>
 
