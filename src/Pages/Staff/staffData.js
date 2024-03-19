@@ -121,7 +121,9 @@ export const staffData = [
         image: image12,
         name: "Smiling Wild Child",
         yearStarted: "$180.00",
-        accolades: ["Orange, red, and pink blooms are sure to bring a smile"],
+        accolades: [
+            "Orange, red, and pink blooms are sure elicit a cheery smile",
+        ],
     },
     {
         id: 13,
@@ -129,7 +131,7 @@ export const staffData = [
         name: "Serenity",
         yearStarted: "$150.00",
         accolades: [
-            "Cream, orange, and green blooms evoke a sense of serennity",
+            "Cream, orange, and green blooms evoke a sense of calm and peace",
         ],
     },
     {
@@ -154,7 +156,7 @@ export const staffData = [
         name: "Summer Picnic",
         yearStarted: "$165.00",
         accolades: [
-            "Yellow, orange, pink, and red blooms evoke memories of days in the summer sun, sipping lemonade",
+            "Yellow, orange, pink, and red blooms evoke memories of late summer days, sipping lemonade",
         ],
     },
     {
@@ -172,7 +174,7 @@ export const staffData = [
         name: "Sugar Cookie",
         yearStarted: "$125.00",
         accolades: [
-            "Cream, pale pink, yellow, lavender, and blue blooms are sure to bring a smile",
+            "Cream, pale pink, yellow, lavender, and blue blooms are sure to bring joy",
         ],
     },
     {
