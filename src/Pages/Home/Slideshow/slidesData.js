@@ -4,7 +4,7 @@ import slide3 from "./img/Pink-rose.jpg";
 import slide4 from "./img/Florist-male.jpg";
 import slide5 from "./img/Inside-the-flower-shop.jpg";
 import slide6 from "./img/Florist-female.jpg";
-import slide7 from "./img/Yellow-and-pink-rose.jpg";
+import slide7 from "./img/Pink-peonies.jpg";
 
 export const slidesData = [
     {
@@ -40,6 +40,6 @@ export const slidesData = [
     {
         id: 7,
         image: slide7,
-        title: "Yellow and Pink Rose",
+        title: "Pink peonies",
     },
 ];
