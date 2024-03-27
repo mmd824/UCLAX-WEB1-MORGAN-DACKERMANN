@@ -17,6 +17,9 @@ import image16 from "./img/Wild-16.jpg";
 import image17 from "./img/Wild-17.jpg";
 import image18 from "./img/Wild-18.jpg";
 import image19 from "./img/Wild-19.jpg";
+import image20 from "./img/Wild-20.jpg";
+import image21 from "./img/Wild-21.jpg";
+import image22 from "./img/Wild-22.jpg";
 
 export const staffData = [
     {
@@ -42,7 +45,7 @@ export const staffData = [
         image: image3,
         name: "Wild Thing",
         yearStarted: "$250.00",
-        accolades: ["Orange and cream blossoms running wild "],
+        accolades: ["Orange and cream blossoms are running wild"],
     },
     {
         id: 4,
@@ -93,7 +96,7 @@ export const staffData = [
         id: 9,
         image: image9,
         name: "Orange Delight",
-        yearStarted: "$150.00",
+        yearStarted: "$250.00",
         accolades: [
             "Bright orange blooms are reminiscent of orange sherbert on a summer day",
         ],
@@ -120,7 +123,7 @@ export const staffData = [
         id: 12,
         image: image12,
         name: "Smiling Wild Child",
-        yearStarted: "$180.00",
+        yearStarted: "$220.00",
         accolades: [
             "Orange, red, and pink blooms are sure elicit a cheery smile",
         ],
@@ -128,60 +131,89 @@ export const staffData = [
     {
         id: 13,
         image: image13,
-        name: "Serenity",
-        yearStarted: "$150.00",
-        accolades: [
-            "Cream, orange, and green blooms evoke a sense of calm and peace",
-        ],
-    },
-    {
-        id: 14,
-        image: image14,
         name: "Razzle Dazzle",
-        yearStarted: "$150.00",
+        yearStarted: "$165.00",
         accolades: [
             "Orange, red, and pink blooms are sure to dazzle and delight",
         ],
     },
     {
+        id: 14,
+        image: image14,
+        name: "Spring Sunshine",
+        yearStarted: "$225.00",
+        accolades: [
+            "Cream, pink, and lavender bloooms evoke the feeling of strolling through Giverny on a sunny, spring day",
+        ],
+    },
+    {
         id: 15,
         image: image15,
-        name: "So Elegant",
+        name: "Playful",
         yearStarted: "$150.00",
-        accolades: ["Cream, pink, and lavendar blooms are charmingly elegant"],
+        accolades: ["Pink, orange, and blue blooms are sweet gems"],
     },
     {
         id: 16,
         image: image16,
-        name: "Summer Picnic",
-        yearStarted: "$165.00",
+        name: "Shakespeare's Whisper",
+        yearStarted: "$185.00",
         accolades: [
-            "Yellow, orange, pink, and red blooms evoke memories of late summer days, sipping lemonade",
+            "Cream, pink, orange, and red blooms are classic reminders of a romantic tale",
         ],
     },
     {
         id: 17,
         image: image17,
-        name: "Sweet Romeo",
-        yearStarted: "$175.00",
+        name: "English Garden",
+        yearStarted: "$250.00",
         accolades: [
-            "Yellow, orange, pink, red, and hints of blue blooms are timeless",
+            "Cream, pink, and lavendar blooms are like a stroll through a sweet, Engisih garden",
         ],
     },
     {
         id: 18,
         image: image18,
-        name: "Sugar Cookie",
-        yearStarted: "$125.00",
+        name: "Summer Picnic",
+        yearStarted: "$185.00",
         accolades: [
-            "Cream, pale pink, yellow, lavender, and blue blooms are sure to bring joy",
+            "Yellow, orange, pink, and red blooms evoke memories of late summer days, sipping lemonade",
         ],
     },
     {
         id: 19,
         image: image19,
-        name: "Bejeweled",
-        yearStarted: "$125.00",
-        accolades: ["Pink, orange, and blue blooms are sweet gems"],
+        name: "Tea with Anne",
+        yearStarted: "$225.00",
+        accolades: [
+            "Cream, Pink, and lavendar blooms are beckoning tea time with Anne",
+        ],
+    },
+    {
+        id: 20,
+        image: image20,
+        name: "Sweet Romeo",
+        yearStarted: "$185.00",
+        accolades: [
+            "Yellow, orange, pink, red, and hints of blue blooms are timeless beauties",
+        ],
+    },
+    {
+        id: 21,
+        image: image21,
+        name: "Summer Chardonnay",
+        yearStarted: "$185.00",
+        accolades: [
+            "Pink, orange, and cream blooms are reminders of a buttery chardonnay at a summer soiree",
+        ],
+    },
+    {
+        id: 22,
+        image: image22,
+        name: "Painter's Light",
+        yearStarted: "$225.00",
+        accolades: [
+            "Cream, pink, and lavendar blooms are reminiscent of an oil painting",
+        ],
     },
 ];
