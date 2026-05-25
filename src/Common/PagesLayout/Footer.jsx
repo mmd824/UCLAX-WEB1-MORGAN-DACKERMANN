@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
                 <h2>Blossom & Bloom :: Peace, Love, Flowers :: Pasadena, CA</h2>
                 <div className="copyright">
-                    &copy; 2024. All rights reserved.
+                    &copy; 2026. All rights reserved.
                 </div>
             </Inset>
         </FooterStyled>
