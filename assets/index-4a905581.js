@@ -934,7 +934,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         }
     }
-`,D2=()=>{const{isMediumAndUp:e}=ag();return b(z2,{children:e?b($b,{}):b(M2,{})})},z2=H.header``,$2=()=>b(F2,{className:"Footer",children:N(Jr,{children:[b("div",{className:"logo",children:b(Tf,{})}),b("h2",{children:"Blossom & Bloom :: Peace, Love, Flowers :: Pasadena, CA"}),b("div",{className:"copyright",children:"© 2024. All rights reserved."})]})}),F2=H.footer`
+`,D2=()=>{const{isMediumAndUp:e}=ag();return b(z2,{children:e?b($b,{}):b(M2,{})})},z2=H.header``,$2=()=>b(F2,{className:"Footer",children:N(Jr,{children:[b("div",{className:"logo",children:b(Tf,{})}),b("h2",{children:"Blossom & Bloom :: Peace, Love, Flowers :: Pasadena, CA"}),b("div",{className:"copyright",children:"© 2026. All rights reserved."})]})}),F2=H.footer`
     color: white;
 
     padding: 20px 0px;
