@@ -6,7 +6,7 @@ import Accolades from "./Accolades/Accolades";
 import ModalImage from "react-modal-image";
 
 const StaffMember = ({ member }) => {
-    const { name, image, yearStarted, accolades } = member;
+    const { name, image, price, accolades } = member;
 
     return (
         <StaffMemberStyled>
@@ -16,7 +16,7 @@ const StaffMember = ({ member }) => {
 
             <div className="bottom">
                 <p>
-                    <b>Price:</b> {yearStarted}
+                    <b>Price:</b> {price}
                 </p>
 
                 <Accolades accolades={accolades} />
