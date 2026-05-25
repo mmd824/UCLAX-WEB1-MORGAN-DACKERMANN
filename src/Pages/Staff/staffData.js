@@ -12,7 +12,7 @@ export const staffData = [
         id: 1,
         image: image1,
         name: "Monet's Garden",
-        yearStarted: "$300.00",
+        price: "$300.00",
         accolades: [
             "Seasonal mixture of pink, yellow, orange, and lavender blooms remniscent of Monet's Garden",
         ],
@@ -21,7 +21,7 @@ export const staffData = [
         id: 2,
         image: image2,
         name: "Orange Delight",
-        price: "$250.00",
+        price: "$325.00",
         accolades: [
             "Bright orange blooms are reminiscent of orange sherbert on a summer day",
         ],
@@ -30,7 +30,7 @@ export const staffData = [
         id: 3,
         image: image3,
         name: "Tea Party",
-        price: "$325.00",
+        price: "$275.00",
         accolades: [
             "Cream, orange, and subtle lavendar blooms are announcing tea time in the garden",
         ],
@@ -39,7 +39,7 @@ export const staffData = [
         id: 4,
         image: image4,
         name: "Oh, Happy Day",
-        price: "$250.00",
+        price: "$300.00",
         accolades: [
             "Bright yellows, pinks, orange, and lavendar blooms as bright as a happy, summer day",
         ],
@@ -57,7 +57,7 @@ export const staffData = [
         id: 6,
         image: image6,
         name: "Elizabeth's Dream",
-        price: "$175.00",
+        price: "$225.00",
         accolades: [
             "Cream, pale pinke, and light lavendar blooms are a hazy daydream",
         ],
@@ -75,7 +75,7 @@ export const staffData = [
         id: 8,
         image: image8,
         name: "English Garden",
-        yearStarted: "$250.00",
+        price: "$250.00",
         accolades: [
             "Cream, pink, and lavendar blooms are reminscent of a stroll through a sweet, Engisih garden",
         ],
