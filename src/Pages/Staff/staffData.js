@@ -59,7 +59,7 @@ export const staffData = [
         name: "Elizabeth's Dream",
         price: "$225.00",
         accolades: [
-            "Cream, pale pinke, and light lavendar blooms are a hazy daydream",
+            "Cream, pale pink, and light lavendar blooms are a hazy daydream",
         ],
     },
     {
